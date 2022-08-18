@@ -2,6 +2,8 @@ using System.ComponentModel.DataAnnotations;
 
 namespace API.DTOs
 {
+    //Require users to enter a string into their login/password
+
     public class RegisterDto
     {
         [Required]

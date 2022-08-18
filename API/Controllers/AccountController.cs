@@ -10,6 +10,8 @@ using API.Interfaces;
 
 namespace API.Controllers
 {
+
+    //This controller is used to register and login the user
     public class AccountController : BaseApiController
     {
         private readonly DataContext _context;
